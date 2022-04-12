@@ -7,7 +7,7 @@
       ec2:
         instance_type: t2.micro
         image: ami-0c02fb55956c7d316
-        region: use-east-1
+        region: us-east-1
         key_name: devops
         vpc_subnet_id: subnet-04b9ba201f4381d67
         assign_public_ip: yes
