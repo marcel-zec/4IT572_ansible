@@ -29,6 +29,7 @@
         delay: 30
         timeout: 300
       loop: "{{ ec2.instances }}"
+      
 - name: Configure EC2
   hosts: launched
   connection: ssh
